@@ -43,7 +43,7 @@ Transfer learning is a machine learning technique in which knowledge gained thro
 ## Model Compilation
 The model is compiled using:
 
-Label Encoding: Label Encoding is a technique that is used to convert categorical columns into numerical ones so that they can be fitted by machine learning models which only take numerical data.
+Label Encoding: Label Encoding is used to convert categorical columns into numerical ones.
 
 Optimizer: Adam, which dynamically adjusts the learning rate.
 
