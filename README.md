@@ -60,7 +60,7 @@ Optimizers are algorithms or methods that are used to change or tune the attribu
 
 Adam(Adaptive Moment Estimation) is an adaptive optimization algorithm that was created specifically for deep neural network training. It can be viewed as a fusion of momentum-based stochastic gradient descent and RMSprop. It scales the learning rate using squared gradients, similar to RMSprop, and leverages momentum by using the gradient’s moving average rather than the gradient itself, similar to SGD with momentum. 
 
-The model is trained using the training set and evaluated on the validation set for 50 epochs using Mean Absolute Error (MAE) as a metric.
+The model is trained using the training set and evaluated on the validation set for 10 epochs using Accuracy as a metric.
 
 The model calculates the loss (or error) by comparing its prediction to the actual target value using a loss function. The loss function quantifies how far the model's prediction is from the target.
 
